@@ -10,28 +10,28 @@ const Projects = () => {
             <div className="card-title">{data.project1["card-title"]}</div>
             <div className="card-info">{data.project1["card-info"]}</div>
             <div className="link">
-              <a href="#">Link to project ></a>
+              <a href="https://github.com/DevDeclann/gadgets">Link to project ></a>
             </div>
           </div>
           <div className="card" data-aos="fade-up">
             <div className="card-title">{data.project2["card-title"]}</div>
             <div className="card-info">{data.project2["card-info"]}</div>
             <div className="link">
-              <a href="#">Link to project ></a>
+              <a href="https://github.com/SecProjectss/ncNET">Link to project ></a>
             </div>
           </div>
           <div className="card" data-aos="fade-up">
             <div className="card-title">{data.project3["card-title"]}</div>
             <div className="card-info">{data.project3["card-info"]}</div>
             <div className="link">
-              <a href="#">Link to project ></a>
+              <a href="https://github.com/DevDeclann/ZoomClone">Link to project ></a>
             </div>
           </div>
           <div className="card" data-aos="fade-up">
             <div className="card-title">{data.project4["card-title"]}</div>
             <div className="card-info">{data.project4["card-info"]}</div>
             <div className="link">
-              <a href="#">Link to project ></a>
+              <a href="https://github.com/Front-End-MentorChallenges">Link to project ></a>
             </div>
           </div>
         </div>
