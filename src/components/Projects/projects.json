@@ -1,0 +1,18 @@
+{
+  "project1": {
+    "card-title": "Gadgets",
+    "card-info": "This tool has been developed merley to help non-pentesters to find common vulnerabilities within their applications. This contract provide full network & port enumeration with sql-scanning & mapping out CVEs"
+  },
+  "project2": {
+    "card-title": "NcNet",
+    "card-info": "NcNet is a security tool used for opening a shell on a remote victims device with zero malicious intent. Only for Educational purposes."
+  },
+  "project3": {
+    "card-title": "ZoomClone",
+    "card-info": "This was develop for functionality purposes. I think the most important part about developement is functionaltity. On the constrast of developing this zoom Clone it provides user/room sessions."
+  },
+  "project4": {
+    "card-title": "FrontEnd Challenges",
+    "card-info": "Side projects I've been working on for fun are linked to my github. I focus mainly on frontend."
+  }
+}

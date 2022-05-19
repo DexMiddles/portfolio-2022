@@ -1,0 +1,32 @@
+@import '../../dist/_variables';
+@import '../../dist/_mixins.scss';
+
+.about-container
+    display: flex;
+    width: 96%;
+    margin: auto;
+    background: $shadeWhite;
+    border-radius: 10px;
+    .about-content
+        .about-profile
+            @include aboutProfile()
+            img
+                width: 30rem;
+                height: 45%;
+                float: left;
+                margin-left: -90px;
+                border-radius: 100%;
+
+        .about-profile-info
+            width: 60%;
+            float: right;
+            margin: 90px;
+            @include aboutInfo()
+            h1
+                font-size: 30px;
+            p
+                color: grey;
+                font-size: 15px;
+            .about-icons
+                padding-top: 20px;
+        

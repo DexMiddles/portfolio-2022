@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@800&family=Josefin+Sans:wght@400;700&family=Libre+Franklin:wght@300&family=Poppins:wght@400;500&display=swap');
+@import '../../dist/_mixins.scss'
+
+
+.profile-container
+    .profile-info
+        img
+            width: 40rem;
+            float: right;
+            @include imageWidthProfile()
+        .info-content
+            margin: 10px 15%;
+            margin-top: 10%;
+            font-size: 20px;
+            padding: 10px;
+            .info-description
+                @include aboutInfo()
+                .scroll-down-text
+                    width: 50%;
+                    h5
+                        margin-top: 100px;
+                        z-index: 99;
+                        color: grey;
+                h2
+                    font-size: 50px;
+                    @include titles()
+                .about-me
+                    width: 50%;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    font-size: 15px;
+                    color: grey;
+                    .main-btn                            
+
+                    @include profileInfo()
+                    @include titles()
+                .title
+                    @include titles()

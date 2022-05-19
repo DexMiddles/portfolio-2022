@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@800&family=Josefin+Sans:wght@400;700&family=Libre+Franklin:wght@300&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  scroll-behavior: smooth;
+}
+
+.container .main-section {
+  width: 95%;
+  height: 32rem;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.container .main-section .profile .social-icons {
+  margin: 0;
+  margin-top: -20%;
+  margin-left: 50px;
+  width: 10px;
+  padding: 5px;
+  cursor: pointer;
+  color: #4782e6;
+}
+
+.container .main-section .profile .social-icons a {
+  color: #4782e6;
+}
+
+.container .main-section .profile .social-icons .tooltip {
+  background: #333;
+  color: #fff;
+  font-weight: bold;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=App.css.map */

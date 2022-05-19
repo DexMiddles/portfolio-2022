@@ -1,0 +1,51 @@
+.about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 96%;
+  margin: auto;
+  background: #f9f9f9f4;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 760px) {
+  .about-container .about-content .about-profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.about-container .about-content .about-profile img {
+  width: 30rem;
+  height: 45%;
+  float: left;
+  margin-left: -90px;
+  border-radius: 100%;
+}
+
+.about-container .about-content .about-profile-info {
+  width: 60%;
+  float: right;
+  margin: 90px;
+}
+
+@media screen and (max-width: 760px) {
+  .about-container .about-content .about-profile-info {
+    width: 90%;
+  }
+}
+
+.about-container .about-content .about-profile-info h1 {
+  font-size: 30px;
+}
+
+.about-container .about-content .about-profile-info p {
+  color: grey;
+  font-size: 15px;
+}
+
+.about-container .about-content .about-profile-info .about-icons {
+  padding-top: 20px;
+}
+/*# sourceMappingURL=About.css.map */

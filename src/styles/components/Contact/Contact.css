@@ -1,0 +1,30 @@
+.contact-section .contact-container {
+  margin: auto;
+  width: 500px;
+}
+
+.contact-section .contact-container form {
+  text-align: center;
+  margin: 16px;
+  width: 100%;
+}
+
+.contact-section .contact-container form input {
+  width: 90%;
+  padding: 15px;
+  margin: 10px;
+  outline: none;
+}
+
+.contact-section .contact-container form button {
+  margin: 10px;
+  padding: 15px;
+  cursor: pointer;
+  width: 200px;
+  background: #5567f4;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 120px;
+}
+/*# sourceMappingURL=Contact.css.map */

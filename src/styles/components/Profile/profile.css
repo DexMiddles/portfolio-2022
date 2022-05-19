@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@800&family=Josefin+Sans:wght@400;700&family=Libre+Franklin:wght@300&family=Poppins:wght@400;500&display=swap");
+.profile-container .profile-info img {
+  width: 40rem;
+  float: right;
+}
+
+@media screen and (min-width: 760px) {
+  .profile-container .profile-info img {
+    margin: -25% 15%;
+  }
+}
+
+.profile-container .profile-info .info-content {
+  margin: 10px 15%;
+  margin-top: 10%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 760px) {
+  .profile-container .profile-info .info-content .info-description {
+    width: 90%;
+  }
+}
+
+.profile-container .profile-info .info-content .info-description .scroll-down-text {
+  width: 50%;
+}
+
+.profile-container .profile-info .info-content .info-description .scroll-down-text h5 {
+  margin-top: 100px;
+  z-index: 99;
+  color: grey;
+}
+
+.profile-container .profile-info .info-content .info-description h2 {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 760px) {
+  .profile-container .profile-info .info-content .info-description h2 {
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+.profile-container .profile-info .info-content .info-description .about-me {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: grey;
+}
+
+@media screen and (max-width: 760px) {
+  .profile-container .profile-info .info-content .info-description .about-me {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .profile-container .profile-info .info-content .info-description .about-me {
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .profile-container .profile-info .info-content .info-description .title {
+    text-align: center;
+    padding: 5px;
+  }
+}
+/*# sourceMappingURL=profile.css.map */

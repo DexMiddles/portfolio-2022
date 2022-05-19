@@ -1,0 +1,35 @@
+@import '../../dist/_variables';
+@import '../../dist/_mixins'
+
+.project-container
+    padding: 10px
+    width: 60%
+    margin: 0 auto
+    justify-content: center
+    align-items: center
+    .project-cards
+        padding: 5px
+        margin: 10px
+        @include responsiveBoxes()
+        .card
+            background: $shadeWhite
+            margin: 10px
+            max-width: 25em
+            height: 400px
+            border-radius: 5.5px
+            transition: 0.5s
+            text-align: center
+            .link
+               float: right
+               width: 100%
+            .card-title
+                font-size: 20px
+                letter-spacing: 2px
+                margin-top: 20px
+            .card-info
+                font-size: 14px
+            &:hover
+                box-shadow: 0px 5px 5px lightgrey;
+                transition: 0.2s
+                margin-top: -1px
+                

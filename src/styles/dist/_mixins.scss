@@ -1,0 +1,43 @@
+// Responsive Mixins
+@mixin profileInfo() {
+  @media screen and (max-width: 760px) {
+    width: 100%;
+  }
+}
+
+@mixin titles {
+  @media screen and (max-width: 760px) {
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+@mixin aboutProfile {
+  @media screen and (min-width: 760px) {
+    display: flex;
+  }
+}
+
+@mixin imageWidthProfile {
+  @media screen and (min-width: 760px) {
+    margin: -25% 15%;
+  }
+}
+
+@mixin aboutInfo {
+  @media screen and (max-width: 760px) {
+    width: 90%;
+  }
+}
+
+@mixin responsiveBoxes {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+@mixin hiddenNav {
+  @media screen and (max-width: 760px) {
+    display: none;
+  }
+}
